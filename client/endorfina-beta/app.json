@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "endorfina-beta",
+    "slug": "endorfina-beta",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash_endorfina.png",
+      
+      "backgroundColor": "#025930"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon_endorfina.png",
+        "backgroundColor": "#025930"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon_endorfina.png"
+    }
+  }
+}

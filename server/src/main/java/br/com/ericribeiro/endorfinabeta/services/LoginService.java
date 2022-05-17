@@ -1,8 +1,6 @@
 package br.com.ericribeiro.endorfinabeta.services;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 import javax.persistence.PersistenceContext;
 
 
@@ -13,6 +11,7 @@ import br.com.ericribeiro.endorfinabeta.models.UsuarioEndorfina;
 import br.com.ericribeiro.endorfinabeta.util.JPAUil;
 
 public class LoginService {
+	
 	@PersistenceContext
 	EntityManager em;
 	
